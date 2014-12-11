@@ -1,8 +1,6 @@
 Instructions
 
-If you
-
-run Mac OS X or Linux
+If you run Mac OS X or Linux
 have node 0.11.14 installed ($ node -v prints 0.11.14)
 can bulid binary Node packages (npm install ws doesn't fail)
 then you can skip all the steps below.
