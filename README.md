@@ -12,3 +12,20 @@ Install VirtualBox
 Install Vagrant
 Create a folder, place Vagrantfile and setup.sh into it
 Execute vagrant up, it will take a while. Make sure that it prints 0.11.14 at the end.
+
+npm i -S engine.io-stream --ignore-scripts
+npm rebuild
+npm i -SD mocha chai
+npm i request
+npm i -S bluebird
+npm i -S co
+
+
+
+
+Для запуска етстов используем "npm test" в package.json
+  "scripts": {
+    "watch" : "mocha watch -- recursive --reporter min",
+    "test": "mocha --recursive --reporter nyan"
+  },
+

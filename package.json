@@ -1,0 +1,35 @@
+{
+  "name": "trying",
+  "version": "1.0.0",
+  "description": "test",
+  "main": "index.js",
+  "scripts": {
+    "watch": "mocha wotch --harmony --recursive --reporter min --timeout 10000",
+    "test": "mocha --recursive --reporter nyan --timeout 10000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Shereminskiy/nodejsAPI.git"
+  },
+  "keywords": [
+    "experement with nodeJS "
+  ],
+  "author": "Alex Shereminskiy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Shereminskiy/nodejsAPI/issues"
+  },
+  "homepage": "https://github.com/Shereminskiy/nodejsAPI",
+  "dependencies": {
+    "bluebird": "^2.3.11",
+    "co": "^4.0.1",
+    "engine.io-stream": "^0.4.3",
+    "request": "^2.51.0",
+    "yield": "0.0.6-8"
+  },
+  "devDependencies": {
+    "chai": "^1.10.0",
+    "jsdom": "^1.4.1",
+    "mocha": "^2.0.1"
+  }
+}
